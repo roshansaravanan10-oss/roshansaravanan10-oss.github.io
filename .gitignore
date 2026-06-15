@@ -1,0 +1,11 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# local tooling / test artifacts
+.playwright-mcp/
+*.log
+
+# never commit auth tokens
+gh_token.txt
+*.token
